@@ -1,0 +1,42 @@
+.Container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .ContainerImg img {
+    width: 60vw;
+    height: 100vh;
+  }
+  
+  .Right {
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Conteudo {
+    gap: 10px;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input {
+    height: 25px;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  button {
+    width: 50%;
+    height: 30px;
+    background-color: #192785;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
