@@ -1,0 +1,116 @@
+/* Estilo geral */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #002acc;
+    color: white;
+    padding: 1rem 2rem;
+  }
+  
+  .header-logo img {
+    max-height: 50px;
+  }
+  
+  .header-nav {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .search-input {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: none;
+  }
+  
+  .user-icon {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Main Content */
+  .product-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-main {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+  }
+  
+  .product-info {
+    flex: 2;
+  }
+  
+  .product-price {
+    font-size: 1.5rem;
+    color: #002acc;
+  }
+  
+  .product-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+  
+  .add-to-cart {
+    background-color: #002acc;
+    color: white;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .quantity-selector button {
+    padding: 0.5rem;
+    background: none;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .cep-calculator input {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .cep-calculator button {
+    padding: 0.5rem;
+    background-color: #002acc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Image Section */
+  .product-image .main-image {
+    max-width: 300px;
+    border-radius: 8px;
+  }
+  
+  /* Related Products */
+  .related-products {
+    padding: 2rem;
+    
+  } 
